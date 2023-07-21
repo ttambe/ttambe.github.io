@@ -274,8 +274,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Tambe]
+  first_name: [Thierry]
 
   style: apa
   locale: en
@@ -286,6 +286,11 @@ scholar:
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
+  sort_by: date
+  order: descending
+
+  type_order: [inproceedings, article, techreport, report, misc]
+  type_names: {inproceedings: Conference Articles, article: Journal Articles, techreport: Technical Reports, report: Preprints, misc: Theses and Books}
   bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true

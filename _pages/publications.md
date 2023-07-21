@@ -4,11 +4,11 @@ permalink: /publications/
 title: Publications
 description:
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
+{% bibliography --template bib --group_by type,year --group_order ascending,descending %}
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
