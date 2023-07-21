@@ -8,13 +8,13 @@ subtitle: <hr style="border:0.75px solid gray"> <p>Post-Doctoral Research Scient
 #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 profile:
   align: right
-  image: thierry_tambe.jpg
+  image: thierry_tambe_v2.jpg
   image_circular: false # crops the image to make it circular
   address: >
     
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
