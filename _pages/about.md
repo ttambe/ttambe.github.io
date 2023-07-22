@@ -15,12 +15,12 @@ profile:
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
 
-My research is building a heterogeneity of solutions co-optimized across the algorithm, memory subsystem, hardware architecture, and silicon stack to generate breakthrough advances in arithmetic performance, compute density and flexibility, and energy efficiency for on-chip machine learning, and emerging compute-intensive applications. I also bear a keen interest in agile system-on-chip (SoC) design methodologies. 
+My research is building a heterogeneity of solutions co-optimized across the algorithm, memory subsystem, hardware architecture, and silicon stack to generate breakthrough advances in arithmetic performance, compute density and flexibility, and energy efficiency for on-chip machine learning, and emerging compute-intensive applications. I also bear a keen interest in agile chip design methodologies. 
 
 My work received Best Paper Award at DAC (2020), ACM SIGDA Research Highlights (2021), IEEE MICRO Top Picks Honorable Mention (2022) accolades, and has been recognized with a [NVIDIA Graduate Fellowship](https://research.nvidia.com/graduate-fellowships/2021) (2021), and an [IEEE SSCS Predoctoral Achievement Award](https://sscs.ieee.org/membership/young-professionals/sscs-predoctoral-achievement-award) (2021).
 
