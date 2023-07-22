@@ -30,3 +30,7 @@ I received my Ph.D. in Electrical Engineering at Harvard University. Prior to de
 - VLSI systems (i.e., number systems, schedulers, architectures, circuits, and silicon) for emerging AI and compute-intensive applications
 - AI for VLSI (e.g., AI-aided hardware and compiler design, AI-based smart power management)
 - Heterogenous system integration (2D, 2.5D, 3D chiplets and systems-in-package)
+
+
+<p> <br>
+ </p>
