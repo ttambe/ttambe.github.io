@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <hr style="border:0.75px solid gray"> <p>Research Scientist, <a href="https://www.nvidia.com/en-us/research/">NVIDIA Research</a> <br>Assistant Professor in <a href="https://ee.stanford.edu/">Electrical Engineering</a>, <a href="https://www.stanford.edu/">Stanford University</a> (starting Autumn 2024)</p> <hr style="border:0.75px solid gray">
+subtitle: <hr style="border:0.75px solid gray"> <p>Research Scientist, <a href="https://www.nvidia.com/en-us/research/">NVIDIA Research</a> <br>Assistant Professor in <a href="https://ee.stanford.edu/">Electrical Engineering</a>, <a href="https://www.stanford.edu/">Stanford University</a> (starting Sept. 2024)</p> <hr style="border:0.75px solid gray">
 
 
 #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -15,7 +15,7 @@ profile:
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---

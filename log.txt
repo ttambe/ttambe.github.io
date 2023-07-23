@@ -1,0 +1,19 @@
+_config.yml:#permalink: /blog/:year/:title/
+_config.yml:  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+_config.yml:    year: archive-year
+_config.yml:    year: '/blog/:year/'
+_config.yml:  group_by: year
+_layouts/post.html:{%- assign year = page.date | date: "%Y" -%}
+_layouts/post.html:      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+_layouts/bib.html:        {%- if entry.year -%}
+_layouts/bib.html:          {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
+_layouts/bib.html:        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+_layouts/archive-year.html:    <p class="post-description"> an archive of posts from this year </p>
+_pages/publications.md:{% bibliography --template bib --group_by type,year --group_order ascending,descending %}
+_pages/teaching.md:Organize your courses by years, topics, or universities, however you like!
+blog/index.html:                    {% assign year = post.date | date: "%Y" %}
+blog/index.html:                      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+blog/index.html:                        <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+blog/index.html:    {% assign year = post.date | date: "%Y" %}
+blog/index.html:        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+blog/index.html:          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>

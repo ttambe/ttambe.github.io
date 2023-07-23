@@ -545,6 +545,12 @@ footer.sticky-bottom {
   }
 }
 
+//news
+.news span { color: var(--global-theme-color); }
+.news span:hover { color: var(--global-theme-color); text-decoration: underline; cursor: pointer; }
+.news table td { font-size: 1rem; color: var(--global-text-color); padding: 1px; margin: 0px; }
+.news table th { color: var(--global-text-color); padding: 1px; margin: 0px; }
+.news table-responsive { overflow-y: hidden; }
 
 // Publications
 
@@ -561,7 +567,7 @@ footer.sticky-bottom {
 
   h2 {
     margin-bottom: 1rem;
-
+    font-size: 2rem;
     span {
       font-size: 1.5rem;
     }
@@ -571,8 +577,8 @@ footer.sticky-bottom {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
     text-align: right;
   }
 
