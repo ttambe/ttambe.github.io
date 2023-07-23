@@ -8,7 +8,7 @@ subtitle: <hr style="border:0.75px solid gray"> <p>Research Scientist, <a href="
 #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 profile:
   align: right
-  image: thierry_tambe_v4.jpg
+  image: thierry_tambe_v2.jpg
   image_circular: false # crops the image to make it circular
   address: >
     
