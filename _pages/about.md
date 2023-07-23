@@ -26,7 +26,7 @@ My work received Best Paper Award at DAC (2020), ACM SIGDA Research Highlights (
 
 I received my Ph.D. in Electrical Engineering at Harvard University. Prior to debuting my doctoral studies, I was a senior engineer at Intel, where I designed various mixed-signal transceiver and peripheral circuits for [EMIB](https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/news-and-resources/video-intel-emib-technology-explained.html)-based chips.
 
-<ins>__Research Interests:__</ins>
+###### <ins>Research Interests:</ins>
 - VLSI systems (i.e., number systems, schedulers, architectures, circuits, devices, and chips) for emerging AI and compute-intensive applications
 - AI for VLSI (e.g., AI-aided hardware and compiler design, AI-based smart power management)
 - Heterogenous system integration (2D, 2.5D, 3D chiplets and systems-in-package)
