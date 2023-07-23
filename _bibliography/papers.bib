@@ -50,7 +50,7 @@
 @report{zhang2023camel,
   title={CAMEL: Co-Designing AI Models and Embedded DRAMs for Efficient On-Device Learning},
   abbr={Arxiv},
-  author={Zhang, Sai Qian and Tambe, Thierry and Cuevas, Nestor and Wei, Gu-Yeon and Brooks, David},
+  author={Zhang*, Sai Qian and Tambe*, Thierry and Cuevas, Nestor and Wei, Gu-Yeon and Brooks, David},
   arxiv={2305.03148},
   selected={true},
   year={2023}
@@ -75,7 +75,7 @@ series = {ICS '22}
 
 @report {687614,
 	title = {Specialized Accelerators and Compiler Flows: Replacing Accelerator APIs with a Formal Software/Hardware Interface},
-	abbr = {arXiv},
+	abbr = {ArXiv},
 	arxiv = {2203.00218},
 	year = {2022},
 	url = {https://arxiv.org/pdf/2203.00218.pdf},
@@ -219,6 +219,7 @@ arxiv={1908.08976}
   author={Tambe, Thierry},
   note = {PhD Dissertation, Electrical Engineering, Harvard University},
   year={2023},
+  abbr={Ph.D.},
   abstract = {The unabated pursuit of omniscient and omnipotent AI is levying hefty latency, memory, and energy taxes at all computing scales. At the same time, the twilight of Dennard scaling means traditional performance gains are no longer proportionally attained with reduction in transistor feature size -- compelling a global trend towards application-based hardware specialization. Over the course of my PhD, I have built a heterogeneity of solutions co-optimized across the algorithm, architecture, and silicon stack to generate breakthrough advances in arithmetic performance, compute density and flexibility, and energy efficiency for on-chip machine learning (ML), and natural language processing (NLP) in particular. My work aims to significantly increase the application space of embedded ML computing, in both the inference and training regimes, by coalescing innovative vectors spanning the algorithm, memory subsystem, hardware architecture, and circuit layers, while tuning their designs and inter-dependencies to promote greater performance, energy efficiency, and reliability within a silicon chip system. In the algorithm front, this thesis discusses best paper award-winning work on a novel floating-point based data type, AdaptivFloat, which enables resilient quantized AI computations; and is particularly suitable for NLP networks with large parameter distribution. To evaluate AdaptivFloat impact on a real system, this thesis describes a 16nm chip prototype that integrates FlexASR, a programmable hardware accelerator with AdaptivFloat-based processing elements, and specialized for attention-based recurrent neural networks used in speech and machine translation AI workloads. We further verify FlexASR fidelity to the front-end AI application via a formal hardware/software compiler interface. Towards the goal of lowering the prohibitive energy cost of inferencing large language models on TinyML devices, this dissertation describes a principled algorithm-hardware co-design solution, validated in a 12nm chip tapeout, that accelerates Transformer workloads by tailoring the accelerator's latency and energy expenditures according to the complexity of the input query it processes. Finally, recognizing that the overwhelming majority of the data generated during the deep learning training process exhibits a very short-lived lifetime, this thesis proposes leveraging non-conventional embedded dynamic RAMs (eDRAMs) as the main on-chip storage medium for ML training data -- which, along with a tightly-coupled offering of algorithmic alterations and custom hardware specialization, yields significant energy efficiency advantages over conventional SRAMs.},
   HTML={https://dash.harvard.edu/handle/1/37375806},
   pdf={https://dash.harvard.edu/bitstream/handle/1/37375806/Final_Draft_PhD_Dissertation_Thierry_Tambe.pdf?sequence=1&isAllowed=y}
