@@ -555,7 +555,7 @@ footer.sticky-bottom {
 // Publications
 
 
-.publications { margin-top: 2rem; width: 120%; }
+.publications { margin-top: 2rem; width: 100%; }
 
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
 
@@ -582,7 +582,7 @@ footer.sticky-bottom {
 
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; font-size: 0.875rem; }
 
-.publications ol.bibliography li { margin-bottom: 1rem; }
+.publications ol.bibliography li { margin-bottom: 1rem}
 
 .publications ol.bibliography li .abbr { height: 2rem; margin-bottom: 0.5rem; }
 
