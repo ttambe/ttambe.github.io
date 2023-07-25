@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+title: Research
+permalink: /research/
+description: I work at the intersection of VLSI design, computer architecture, and machine learning to co-design solutions across the computing stack with the goal of overcoming fundamental limitations we now face due to the end of Dennard Scaling. I am interested in developing specialized hardwares, algorithms, runtime systems, and scalable silicon systems for emerging applications, while tuning their designs and inter-dependencies to promote greater performance, efficiency, reliability, and TCO. Here are some highlights of my research work so far.
+nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [" "]
 horizontal: false
 ---
 
