@@ -290,8 +290,8 @@ scholar:
   #sort_by: date
   #order: descending
 
-  type_order: [inproceedings, article, techreport, report, misc]
-  type_names: {inproceedings: Conference Articles, article: Journal Articles, techreport: Technical Reports, report: Preprints, misc: Theses and Books}
+  #type_order: [inproceedings, article, techreport, report, misc]
+  #type_names: {inproceedings: Conference Articles, article: Journal Articles, techreport: Technical Reports, report: Preprints, misc: Theses and Books}
   bibtex_filters: [latex, smallcaps, superscript]
 
   #replace_strings: true

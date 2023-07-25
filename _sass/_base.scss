@@ -151,7 +151,7 @@ blockquote {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1.0rem;
 
   a {
     color: inherit;
@@ -560,15 +560,6 @@ footer.sticky-bottom {
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
 
 .publications h2 { margin-bottom: 1rem; }
-
-.publications h2.bibliography {
-  color: $grey-color-light;
-  border-top: 1px solid $grey-color-light;
-  padding-top: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  text-align: right;
-}
 
 .publications h2 span { font-size: 1.5rem; }
 

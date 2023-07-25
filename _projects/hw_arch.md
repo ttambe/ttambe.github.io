@@ -2,7 +2,7 @@
 layout: page
 title: Domain-Specific Architectures
 description: 
-img: assets/img/soc.jpg
+img: assets/img/domain_hw_arch.jpg
 importance: 2
 category: " "
 ---
