@@ -18,10 +18,8 @@ In essence, AdaptivFloat introduces in its exponent field an exponent bias that 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/adaptivfloat_conversion.jpg" title="adaptivfloat mechanism" class="img-fluid rounded z-depth-1" %}
+        <p class="caption">AdaptivFloat quantization scheme based on exponential bias shift from maximum absolute tensor value.</p>
     </div>
-</div>
-<div class="caption">
-    AdaptivFloat quantization scheme based on exponential bias shift from maximum absolute tensor value.
 </div>
 
 To facilitate the exploration of newer number formats in the context of deep learning and other emerging applications, we developed and [open-sourced](https://github.com/ma3mool/goldeneye) [__GoldenEye__](https://ma3mool.github.io/files/22-DSN-goldeneye.pdf), a number format simulator that enables the selection of configurable number systems as a first-order parameter when evaluating their impact on DNN classification accuracy. 
