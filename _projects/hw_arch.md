@@ -5,76 +5,47 @@ description:
 img: assets/img/domain_hw_arch.jpg
 importance: 2
 category: " "
+related_publications: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The slowdown of transistor scaling coupled with the surging democratization of AI has spurred the rise of application-driven architectures to continue delivering gains in performance and energy efficiency. My PhD work has developed domain-specific hardware architectures for natural language processing (NLP) and AI training workloads as summarized below.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<hr style="border:0.75px solid gray">
+
+1) [EdgeBERT](https://dl.acm.org/doi/abs/10.1145/3466752.3480095) is an algorithm-hardware co-design framework multi-task NLP inference. The EdgeBERT accelerator tailors its latency and energy consumption via entropy-based early exit and dynamic voltage-frequency scaling (DVFS). Computation and memory footprint overheads are further alleviated by employing a calibrated combination of adaptive attention span, selective network pruning, and floating-point quantization. EdgeBERT source code is open-sourced [here](https://github.com/harvard-acc/EdgeBERT).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/edgebert_accel.jpg" title="EdgeBERT Accelerator" class="img-fluid rounded z-depth-1 mx-auto d-block" width="750" height="550" %}
+        <p class="caption">The EdgeBERT hardware accelerator system highlighting its processing and special function units. A fast-switching LDO and fast-locking ADPLL are also integrated for latency-driven DVFS. </p>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<hr style="border:0.75px solid gray">
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
+2) [CAMEL](https://arxiv.org/pdf/2305.03148.pdf) is a model-architecture co-design framework for on-device machine learning training using embedded DRAMs. The specialized accelertor consists of a systolic array core and a hybrid eDRAM-SRAM memory subsystem as illustrated below. The reconfigurable systolic array core utilizes block floating-point (BFP) -based processing elements.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/camel_accel.jpg" title="CAMEL Accelerator" class="img-fluid rounded z-depth-1" %}
+        <p class="caption">CAMEL ML training accelerator. </p>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/camel_pe.jpg" title="CAMEL PE" class="img-fluid rounded z-depth-1" %}
+        <p class="caption">Block floating-point -based processing element.</p>
     </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+ </div>
+ <hr style="border:0.75px solid gray">
 
+ 3) [FlexASR](https://ieeexplore.ieee.org/document/9791855) is a hardware accelerator with [AdaptivFloat](https://arxiv.org/abs/1909.13271)-based processing elements, optimized for attention-based recurrent neural networks used in speech and machine translation AI workloads. FlexASR is open-sourced [here](https://github.com/harvard-acc/FlexASR/).
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+ <div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/flexasr_top.jpg" title="FlexASR Top-Level" class="img-fluid rounded z-depth-1" %}
+        <p class="caption">Top-level FlexASR accelerator.</p>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/flexasr_pe.jpg" title="FlexASR PE" class="img-fluid rounded z-depth-1" %}
+        <p class="caption">AdaptivFloat-based processing element.</p>
     </div>
-</div>
-```
-{% endraw %}
+ </div>
