@@ -2,7 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle: <hr style="border:0.75px solid gray"> <p>Research Scientist, <a href="https://www.nvidia.com/en-us/research/">NVIDIA Research</a> <br>Assistant Professor in <a href="https://ee.stanford.edu/">Electrical Engineering</a>, <a href="https://www.stanford.edu/">Stanford University</a> (starting Sept. 2024)</p> <hr style="border:0.75px solid gray">
+subtitle: <hr style="border:0.75px solid gray"> <p>Incoming Assistant Professor in <a href="https://ee.stanford.edu/">Electrical Engineering</a>, <a href="https://www.stanford.edu/">Stanford University</a> (starting Sept. 2024)</p> <hr style="border:0.75px solid gray">
+#subtitle: <hr style="border:0.75px solid gray"> <p>Research Scientist, <a href="https://www.nvidia.com/en-us/research/">NVIDIA Research</a> <br>Incoming Assistant Professor in <a href="https://ee.stanford.edu/">Electrical Engineering</a>, <a href="https://www.stanford.edu/">Stanford University</a> (starting Sept. 2024)</p> <hr style="border:0.75px solid gray">
 
 
 #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
