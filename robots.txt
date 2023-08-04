@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://thierrytambe.com/sitemap.xml
+Sitemap: https://thierrytambe.com/assets/sitemap/sitemap_index.xml
