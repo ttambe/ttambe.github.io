@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://thierrytambe.com/</loc>
+  <lastmod>2023-07-27T14:11:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://thierrytambe.com/research/</loc>
+  <lastmod>2023-07-27T14:11:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thierrytambe.com/publications/</loc>
+  <lastmod>2023-07-27T14:11:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thierrytambe.com/assets/pdf/thierry_tambe_cv.pdf</loc>
+  <lastmod>2023-07-27T14:11:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thierrytambe.com/news/</loc>
+  <lastmod>2023-07-27T14:11:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thierrytambe.com/projects/number_systems/</loc>
+  <lastmod>2023-07-27T14:11:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://thierrytambe.com/projects/hw_arch/</loc>
+  <lastmod>2023-07-27T14:11:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://thierrytambe.com/projects/chips/</loc>
+  <lastmod>2023-07-27T14:11:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>
