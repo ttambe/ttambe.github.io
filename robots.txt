@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ttambe.github.io/sitemap.xml
+Sitemap: https://thierrytambe.com/sitemap.xml
