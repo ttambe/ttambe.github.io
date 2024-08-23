@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <hr style="border:0.75px solid gray"> <p>Assistant Professor in Electrical Engineering, Stanford University</a><br> Research Scientist, NVIDIA </p> <hr style="border:0.75px solid gray">
+subtitle: <hr style="border:0.75px solid gray"> <p>Assistant Professor in Electrical Engineering, Stanford University</a></p> <hr style="border:0.75px solid gray">
 #subtitle: <hr style="border:0.75px solid gray"> <p>Research Scientist, NVIDIA <br>Incoming Assistant Professor in <a href="https://ee.stanford.edu/">Electrical Engineering</a>, <a href="https://www.stanford.edu/">Stanford University</a> (official start Sept. 2024)</p> <hr style="border:0.75px solid gray">
 
 
