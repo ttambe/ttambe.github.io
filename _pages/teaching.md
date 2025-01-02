@@ -8,7 +8,7 @@ display_categories: [" "]
 horizontal: false
 ---
 
-##### [EE271 - Introduction to VLSI Systems](https://web.stanford.edu/class/ee271/) 
+###### [EE271 - Introduction to VLSI Systems](https://web.stanford.edu/class/ee271/) 
 
-##### [EE180 - Digital Systems Architecture](https://web.stanford.edu/class/ee180/)
+###### [EE180 - Digital Systems Architecture](https://web.stanford.edu/class/ee180/)
 
