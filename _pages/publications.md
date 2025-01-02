@@ -5,15 +5,15 @@ title: Publications
 description:
 sections:
   - bibquery: "@inproceedings"
-    text: "Conference Articles"
+    text: "Conference"
   - bibquery: "@article"
-    text: "Journal Articles"
+    text: "Journal"
   - bibquery: "@techreport"
-    text: "Technical Reports"
+    text: "Technical Report"
   - bibquery: "@report"
-    text: "Preprints"
+    text: "Preprint"
   - bibquery: "@misc"
-    text: "Theses"
+    text: "Thesis"
 years: [2024, 2023, 2022, 2021, 2020, 2019]
 nav: true
 social: true
