@@ -275,8 +275,8 @@ jekyll-minifier:
 
 scholar:
 
-  last_name: [Tambe]
-  first_name: [Thierry]
+  last_name: []
+  first_name: []
 
   style: apa
   locale: en

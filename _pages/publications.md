@@ -14,7 +14,7 @@ sections:
     text: "Preprint"
   - bibquery: "@misc"
     text: "Thesis"
-years: [2024, 2023, 2022, 2021, 2020, 2019]
+years: [2032, 2031, 2030, 2029, 2028, 2027, 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019]
 nav: true
 social: true
 nav_order: 3
