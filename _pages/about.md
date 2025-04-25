@@ -14,13 +14,13 @@ profile:
   address: >
     
 display_categories: [" "]
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
-Thierry Tambe is an Assistant Professor of Electrical Engineering and, by courtesy, of Computer Science, and the William George and Ida Mary Hoover Faculty Fellow at Stanford University. His research explores the intersection of AI/ML and hardware systems, developing algorithms, hardware architectures, chips, and tools to make accelerated AI computing more portable, scalable, efficient, and easier to design. Previously, Thierry was a visiting research scientist at NVIDIA and an engineer at Intel. He received a B.S., and M.Eng. from Texas A&M University, and a Ph.D. from Harvard University, all in Electrical Engineering. His research has been recognized through a NVIDIA Graduate PhD Fellowship, an IEEE SSCS Predoctoral Achievement Award, and distinguished paper awards at DAC and MICRO.
+I am an Assistant Professor of Electrical Engineering and, by courtesy, of Computer Science at Stanford University. My research explores the intersection of AI/ML and hardware systems. Specifically, my research group develops algorithms, hardware architectures, chips, and tools to make accelerated AI computing more portable, scalable, efficient, and easier to design. Previously, I was a visiting research scientist at NVIDIA and an engineer at Intel. I received a B.S., and M.Eng. from Texas A&M University, and a Ph.D. from Harvard University, all in Electrical Engineering.
 
 <p> <br>
  </p>
