@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
-Thierry Tambe is an Assistant Professor of Electrical Engineering and, by courtesy, of Computer Science, and the William George and Ida Mary Hoover Faculty Fellow at Stanford University. His research makes AI and emerging data-intensive applications run efficiently on domain-specific hardware via algorithm-to-silicon co-design. His work has been recognized through a Google ML and Systems Junior Faculty Award, a NVIDIA Graduate PhD Fellowship, an IEEE SSCS Predoctoral Achievement Award, and several distinguished paper awards. Previously, Thierry was a visiting research scientist at NVIDIA and an engineer at Intel. He received a B.S. and M.Eng. from Texas A&M University, and a PhD from Harvard University, all in Electrical Engineering.
+Thierry Tambe is an Assistant Professor of Electrical Engineering and, by courtesy, of Computer Science, and the William George and Ida Mary Hoover Faculty Fellow at Stanford University. His research makes AI and emerging data-intensive applications run efficiently on domain-specific hardware via algorithm-to-silicon co-design. His work has been recognized through a Google ML and Systems Junior Faculty Award, a NVIDIA Graduate PhD Fellowship, an IEEE SSCS Predoctoral Achievement Award, and several distinguished paper awards. Previously, Thierry was a visiting research scientist at NVIDIA and an engineer at Intel. He received a B.S. and M.Eng. from Texas A&M University, and a PhD from Harvard University, all in Electrical Engineering. 
 
 <p> <br>
  </p>
