@@ -12,3 +12,5 @@ horizontal: false
 
 ###### [EE180 - Digital Systems Architecture](https://web.stanford.edu/class/ee180/)
 
+###### [CS217 - Hardware Accelerators for Machine Learning](https://navigator.stanford.edu/classes/1264/30152/)
+
