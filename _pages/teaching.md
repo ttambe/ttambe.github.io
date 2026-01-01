@@ -8,9 +8,8 @@ display_categories: [" "]
 horizontal: false
 ---
 
+###### [CS217 - Hardware Accelerators for Machine Learning](https://cs217.stanford.edu/)
+
 ###### [EE180 - Digital Systems Architecture](https://web.stanford.edu/class/ee180/)
 
 ###### [EE271 - Introduction to VLSI Systems](https://web.stanford.edu/class/ee271/) 
-
-###### [CS217 - Hardware Accelerators for Machine Learning](https://navigator.stanford.edu/classes/1264/30152/)
-
